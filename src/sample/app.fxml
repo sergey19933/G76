@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #99ff99;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerThread">
+    <children>
+        <Label layoutX="50.0" layoutY="91.0" prefHeight="30.0" prefWidth="138.0" text="Длина шпильки" />
+
+        <Label layoutX="216.0" layoutY="99.0" prefHeight="18.0" prefWidth="149.0" text="Диаметр шпильки" />
+        <Label layoutX="390.0" layoutY="97.0" prefHeight="18.0" prefWidth="109.0" text="Шаг резьбы" />
+        <Button fx:id="result" layoutX="224.0" layoutY="241.0" mnemonicParsing="false" text="Рассчитать" />
+        <TextField fx:id="lengthHairpin" layoutX="50.0" layoutY="123.0" prefHeight="26.0" prefWidth="54.0" />
+        <TextField fx:id="diameter" layoutX="216.0" layoutY="123.0" prefHeight="26.0" prefWidth="66.0" />
+        <TextField fx:id="step" layoutX="390.0" layoutY="122.0" prefHeight="26.0" prefWidth="66.0" />
+      <Label layoutX="187.0" layoutY="28.0" prefHeight="26.0" prefWidth="138.0" text="Длина шпильки">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="lengthThread" layoutX="185.0" layoutY="304.0" promptText="Длина : " />
+      <Button fx:id="switchingThread" layoutX="32.0" layoutY="29.0" mnemonicParsing="false" text="Резьба" />
+    </children>
+</AnchorPane>
